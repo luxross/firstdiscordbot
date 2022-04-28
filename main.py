@@ -153,6 +153,7 @@ async def userinfo(ctx):
   
 
 #Grab the weather forecast with a country code and zip code
+#Does not work 
 @bot.command
 #@lightbulb.option('country_code', 'The two letter initials of country to pull', type=str)
 @lightbulb.option('city', 'What city do you want to pull the weather from?')
